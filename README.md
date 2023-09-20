@@ -20,6 +20,10 @@ Read the template
 Put the data model in context object
 Merge the template with context data and render the view
 
+
+Attention:
+Velocity is an older template engine, which is very complex but has the disadvantage that Spring has deprecated its use since version 4.3 and removed completely in Spring 5.0.1.
+
 ```
        <dependency>
             <groupId>org.apache.velocity</groupId>
